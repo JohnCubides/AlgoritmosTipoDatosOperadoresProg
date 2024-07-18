@@ -66,7 +66,7 @@ public class TipoDatosFunciones {
         datos.documento = scanner.nextInt();
         System.out.println("Ingrese Nombre: ");
         datos.nombre = scanner.next();
-        System.out.println("Ingrese edad: ");
+        System.out.println("Por favor Ingrese edad: ");
         datos.edad = scanner.nextInt();
         System.out.println("Ingrese el Genero M, F: ");
         datos.sexo = scanner.next().charAt(0);
