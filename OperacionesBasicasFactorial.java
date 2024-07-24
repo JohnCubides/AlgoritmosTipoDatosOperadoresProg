@@ -8,7 +8,7 @@ public class OperacionesBasicasFactorial {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese numero para colcular su dactorial: ");
+        System.out.println("Por favor Ingrese numero para calcular su factorial: ");
         int numero = scanner.nextInt();
         OperacionesBasicasFactorial op = new OperacionesBasicasFactorial(); 
         System.out.println(MessageFormat.format( "EL factorial del numero {0} es: {1}", numero, op.factorial( numero ) ) );
