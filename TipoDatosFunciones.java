@@ -62,7 +62,7 @@ public class TipoDatosFunciones {
         
         System.out.println("Ingrese tipo documento TI, CC: ");
         datos.tipoDoc = scanner.next();
-        System.out.println("Ingrese numero de documento: ");
+        System.out.println("Por favor Ingrese numero de documento: ");
         datos.documento = scanner.nextInt();
         System.out.println("Ingrese Nombre: ");
         datos.nombre = scanner.next();
