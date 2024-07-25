@@ -8,7 +8,7 @@ public class OperacionesBasicas{
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese primer numero: ");
+        System.out.println("Por favor Ingrese primer numero: ");
         double primero = scanner.nextDouble();
         System.out.println("Ingrese segundo numero: ");
         double segundo = scanner.nextDouble();
