@@ -33,7 +33,7 @@ public class Figuras {
     public void circunferencia(){
 
         this.fig = "Círculo";
-        System.out.println("Ingrese radio de la circunferencia:");
+        System.out.println("Ingrese radio de la circunferencia: ");
         this.radio = this.scanner.nextDouble();
 
         this.area = ( this.radio*this.radio ) * Math.PI;
