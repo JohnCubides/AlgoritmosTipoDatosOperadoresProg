@@ -72,7 +72,7 @@ public class TipoDatosFunciones {
         datos.sexo = scanner.next().charAt(0);
         System.out.println("Ingrese el peso en Kg: ");
         datos.peso = scanner.nextDouble();
-        System.out.println("Ingrese la estatura en metros: ");
+        System.out.println("Por favor Ingrese la estatura en metros: ");
         datos.estatura = scanner.nextDouble();
 
         boolean isOlder = datos.mayorEdad();
