@@ -68,7 +68,7 @@ public class TipoDatosFunciones {
         datos.nombre = scanner.next();
         System.out.println("Ingrese edad: ");
         datos.edad = scanner.nextInt();
-        System.out.println("Ingrese el Genero M, F: ");
+        System.out.println("Por favor Ingrese el Genero M, F: ");
         datos.sexo = scanner.next().charAt(0);
         System.out.println("Ingrese el peso en Kg: ");
         datos.peso = scanner.nextDouble();
